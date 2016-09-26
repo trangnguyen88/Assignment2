@@ -1,0 +1,107 @@
+header,form,footer {
+    display: block;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #eee6ff;
+    width: 1000px;
+    font-size: 100%;
+    margin: auto;
+}
+
+form {
+    float: left;
+    margin: 0 1.5%;
+    width: 40%;
+}
+
+footer {
+    display: inline-block;
+    height: 60px;
+    width: 100%;
+    clear: both;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Denk One',sans-serif;
+    text-align: center;
+    color: red;
+}
+
+header nav {
+    float: left;
+    font-size: large;
+    height: 10%;
+}
+
+.register {
+    float: left;
+    width: 70%;
+}
+
+.signup {
+    display: inline-block;
+}
+
+fieldset {
+    height: 70%;
+    border: 1px solid gray;
+    width: 430px;
+    float: left 35%;
+    background: #e6e6fa;
+    margin: auto;
+    padding: 0 1em 1em;
+}
+
+fieldset legend {
+    background: #CCA383;
+    padding: 1em;
+    font-weight: 700;
+}
+
+label {
+    color: #B4886B;
+    font-weight: 700;
+    display: block;
+    width: 200px;
+    float: left;
+}
+
+label:after {
+    content: ": ";
+}
+
+button {
+    padding: 6px;
+    border-radius: 15px;
+    color: #fffff0;
+    background: #6b8e23;
+    cursor: pointer;
+    font-size: .8em;
+    margin-left: 150px;
+    float: left 40%;
+}
+
+footer {
+    margin: auto;
+}
+
+.info_container {
+    float: left;
+    width: 20%;
+}
+
+.sitemap {
+    float: left;
+    width: 20%;
+}
+
+.bottom {
+    float: right;
+    width: 60%;
+}

@@ -1,0 +1,55 @@
+body {
+  background: gainsboro;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+header, main, footer {
+  min-width: 855px;
+}
+
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
+}
+
+header {
+  background: white;
+  overflow: auto;
+}
+
+header h1 {
+  float: center;
+  width: 570px;
+}
+
+nav {
+  float: right;
+  width: 285px;
+}
+
+main {
+  background: white;
+  overflow: auto;
+}
+
+main .left {
+  float: left;
+  width: 570px;
+}
+
+main .right {
+  float: right;
+  width: 285px;
+}
+
+footer .left {
+  float: left;
+  width: 570px;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
